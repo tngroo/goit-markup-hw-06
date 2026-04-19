@@ -295,15 +295,27 @@ button{
     
 }
 
-.contact-item-menu {
+.contact-item-menu-phone {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #404BBF;
+}
+.contact-item-menu-email {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #434455;
 }
-.contact-item-menu.current{
-    color: #4D5AE5;
+
+.contact-list-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-bottom: 48px;
+
 }
 .social-list-links-menu {
     display: flex;
@@ -446,7 +458,7 @@ button{
         .hero-section {
             max-width: 1440px;
                     background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-                        url(../images/office-2x.jpg);
+                        url(../images/office.jpg);
                 }
 }
 
@@ -464,7 +476,7 @@ button{
 .features-list{
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: flex-start;
     gap: 72px;
 }
 
@@ -951,12 +963,14 @@ button{
     }
         .footer-input {
             width: 264px;
+            margin-bottom: 0;
 }
 
     .footer-form{
         justify-content: flex-start;
         display: flex;
         align-items: flex-start;
+        flex-wrap: nowrap;
     }
     .footer-subscribe{
         align-items: flex-start;
