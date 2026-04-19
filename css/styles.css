@@ -236,7 +236,7 @@ button{
     height: 100%;
 }
 
-.modal-close-button {
+.modal-close-button-menu {
     position: absolute;
     display: flex;
     align-items: center;
@@ -254,8 +254,8 @@ button{
     border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-.modal-close-button:hover,
-.modal-close-button:focus {
+.modal-close-button-menu:hover,
+.modal-close-button-menu:focus {
     fill: #FFFFFF;
     background-color: #404BBF;
 }
