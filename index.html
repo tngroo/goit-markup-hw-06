@@ -32,6 +32,7 @@
             <li><a class="nav-link" href="./index.html">Contacts</a></li>
           </ul>
         </nav>
+
         <address class="contact-section">
           <ul class="contact-list">
             <li>
@@ -46,6 +47,74 @@
             </li>
           </ul>
         </address>
+
+        <button class="btn-burger" type="button">
+          <svg class="icon-burger" width="24" height="24">
+            <use href="./images/icons.svg#icon-burger"></use>
+          </svg>
+        </button>
+      </div>
+      <div class="mobile-menu">
+        <div class="container mobile-menu-container">
+          <button type="button" class="modal-close-button">
+            <svg class="modal-icon" width="8" height="8">
+              <use href="./images/icons.svg#icon-close-black"></use>
+            </svg>
+          </button>
+          <nav class="mobile-menu-nav">
+            <ul class="nav-list-menu">
+              <li>
+                <a class="nav-link-menu current" href="./index.html">Studio</a>
+              </li>
+              <li>
+                <a class="nav-link-menu" href="./index.html">Portfolio</a>
+              </li>
+              <li><a class="nav-link-menu" href="./index.html">Contacts</a></li>
+            </ul>
+          </nav>
+          <address class="contact-section-menu">
+            <ul class="contact-list-menu">
+              <li>
+                <a class="contact-item-menu" href="tel:+110001111111">
+                  +11 (000) 111-11-11</a>
+              </li>
+              <li>
+                <a class="contact-item-menu" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+              </li>
+            </ul>
+            <ul class="social-list-links-menu">
+                  <li class="social-item-links-menu">
+                    <a class="social-team-link-menu" href="#">
+                      <svg class="social-icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-item-links-menu">
+                    <a class="social-team-link-menu" href="#">
+                      <svg class="social-icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-item-links-menu">
+                    <a class="social-team-link-menu" href="#">
+                      <svg class="social-icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-item-links-menu">
+                    <a class="social-team-link-menu" href="#">
+                      <svg class="social-icon" width="16" height="16">
+                        <use href="./images/icons.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+          </address>
+        </div>
       </div>
     </header>
 
@@ -122,7 +191,8 @@
             <li class="team-list-item">
               <img
                 class="team-img"
-                src="./images/img-3.png"
+                src="./images/w1-1x.jpg"
+                srcset="./images/w1-1x.jpg 1x, ./images/w1-2x.jpg 2x"
                 alt="Mark Guerrero"
                 width="264"
               />
@@ -164,7 +234,8 @@
             <li class="team-list-item">
               <img
                 class="team-img"
-                src="./images/img-2.png"
+                src="./images/w2-1x.jpg"
+                srcset="./images/w2-1x.jpg 1x, ./images/w2-2x.jpg 2x"
                 alt="Tom Ford"
                 width="264"
               />
@@ -206,7 +277,8 @@
             <li class="team-list-item">
               <img
                 class="team-img"
-                src="./images/img-1.png"
+                src="./images/w3-1x.jpg"
+                srcset="./images/w3-1x.jpg 1x, ./images/w3-2x.jpg 2x"
                 alt="Camila Garcia"
                 width="264"
               />
@@ -248,7 +320,8 @@
             <li class="team-list-item">
               <img
                 class="team-img"
-                src="./images/img.png"
+                src="./images/w4-1x.jpg"
+                srcset="./images/w4-1x.jpg 1x, ./images/w4-2x.jpg 2x"
                 alt="Daniel Wilson"
                 width="264"
               />
@@ -306,6 +379,10 @@
                   <img
                     class="portfolio-img"
                     src="./images/portfolio1.jpg"
+                    srcset="
+                      ./images/portfolio1.jpg    1x,
+                      ./images/portfolio1-2x.jpg 2x
+                    "
                     alt="App"
                     width="360"
                   />
@@ -327,6 +404,10 @@
                   <img
                     class="portfolio-img"
                     src="./images/portfolio2.jpg"
+                    srcset="
+                      ./images/portfolio2.jpg    1x,
+                      ./images/portfolio2-2x.jpg 2x
+                    "
                     alt="Payment"
                     width="360"
                   />
@@ -348,6 +429,10 @@
                   <img
                     class="portfolio-img"
                     src="./images/portfolio3.jpg"
+                    srcset="
+                      ./images/portfolio3.jpg    1x,
+                      ./images/portfolio3-2x.jpg 2x
+                    "
                     alt="Devices"
                     width="360"
                   />
@@ -369,6 +454,10 @@
                   <img
                     class="portfolio-img"
                     src="./images/portfolio4.jpg"
+                    srcset="
+                      ./images/portfolio4.jpg    1x,
+                      ./images/portfolio4-2x.jpg 2x
+                    "
                     alt="Taxi"
                     width="360"
                   />
@@ -390,6 +479,10 @@
                   <img
                     class="portfolio-img"
                     src="./images/portfolio5.jpg"
+                    srcset="
+                      ./images/portfolio5.jpg    1x,
+                      ./images/portfolio5-2x.jpg 2x
+                    "
                     alt="Screen"
                     width="360"
                   />
@@ -411,6 +504,10 @@
                   <img
                     class="portfolio-img"
                     src="./images/portfolio6.jpg"
+                    srcset="
+                      ./images/portfolio6.jpg    1x,
+                      ./images/portfolio6-2x.jpg 2x
+                    "
                     alt="Person"
                     width="360"
                   />
@@ -492,6 +589,7 @@
         </div>
       </div>
     </footer>
+    
     <div class="backdrop">
       <div class="modal">
         <p class="modal-title">Leave your contacts and we will call you back</p>
@@ -563,8 +661,10 @@
               <svg class="check-icon" width="10" height="8">
                 <use href="./images/icons.svg#icon-vector"></use>
               </svg> </span
-            >I accept the terms and conditions of the&nbsp;
-            <a href="#" class="policy">Privacy Policy</a>
+            ><span class="checkbox-text"
+              >I accept the terms and conditions of the
+              <a href="#" class="policy">Privacy Policy</a>
+            </span>
           </label>
           <button type="submit" class="modal-button">Send</button>
         </form>
