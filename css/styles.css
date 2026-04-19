@@ -346,7 +346,7 @@ button{
     display: block;
     margin-right: auto;
     margin-left: auto;
-    padding: 72px 52px;
+    padding: 72px 0;
     max-width: 320px;
 }
 
@@ -373,8 +373,8 @@ button{
         letter-spacing: 0.02em;
         text-align: center;
         color: #ffffff;
-        margin-bottom: 72px;
         max-width: 216px;
+        margin: 0 auto 72px auto;
 }
 
 .button-order-service {
@@ -405,7 +405,7 @@ button{
 
 @media screen and (min-width: 768px) {
     .hero-container{
-        padding: 112px 136px;
+        padding: 112px 0;
         max-width: 768px;
     }
     .hero-section{
@@ -504,7 +504,10 @@ button{
 @media screen and (min-width: 1158px) {
 .features-list {
         gap: 24px;
-
+    }
+.features-container {
+        padding-top: 120px;
+        padding-bottom: 120px;
     }
 
     .features-icon {
@@ -559,6 +562,7 @@ button{
     align-items: center;
     flex-wrap: wrap;
     gap: 72px;
+    justify-content: center;
 }
 
 .team-list-item {
@@ -626,6 +630,7 @@ button{
             padding: 96px 108px;
         }
         .team-list {
+            justify-content: center;
             gap: 64px 24px;
         }
 }
@@ -848,7 +853,7 @@ button{
     line-height: 1.5;
     color: #FFFFFF;
     max-width: 264px;
-    text-align: left;
+    text-align: center;
 }
 
 .footer-social-list-links {
